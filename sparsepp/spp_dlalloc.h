@@ -210,6 +210,7 @@ namespace std
 
 #ifdef WIN32
     #define WIN32_LEAN_AND_MEAN
+    #define NOMINMAX
     #include <windows.h>
     #include <tchar.h>
     #define SPP_HAVE_MMAP 1
